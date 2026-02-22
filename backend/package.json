@@ -1,6 +1,6 @@
 {
   "name": "tap2give-backend",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Backend for Tap2Give donation project",
   "main": "server.js",
   "scripts": {
