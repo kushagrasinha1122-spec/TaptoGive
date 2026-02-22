@@ -34,7 +34,7 @@ app.use("/api/auth", authRoutes);
 
 // Root health check — useful for testing if server is running
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to Tap2Give API 🎗️" });
+  res.json({ message: "Welcome to Tap2Give API 🎗️", version: "2.0-auth" });
 });
 
 // ─────────────────────────────────────────────
